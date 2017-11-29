@@ -1,2 +1,3 @@
 # Little-Houdini-Helpers
-Scripts to make life easier when working with Houdini.
+
+This is a collection of scripts that make your life easier in day-to-day work with Houdini.
