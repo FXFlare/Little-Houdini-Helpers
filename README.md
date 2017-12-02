@@ -14,7 +14,7 @@ For more informations about Python script locations in Houdini: http://www.sidef
 ### Quickbook
 
 #### exec_quickbook(framerate, resolution, images_output_dir, video_output_dir, file_name)
-Write an jpg image sequence from flipbook to disk and converte this sequence to a mov file via ffmpeg.
+Write a jpg image sequence from flipbook to disk and convert this sequence to a mov file via ffmpeg.
 
 ```python
 import Quickbook  
