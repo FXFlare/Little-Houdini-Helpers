@@ -4,13 +4,21 @@ A collection of scripts that make your life easier in day-to-day work with Houdi
 
 ## Install
 
-Set the Houdini script location to the *src* folder.  
+Set the Houdini script location to the *src* folder.   
+For more informations about Python script locations in Houdini: http://www.sidefx.com/docs/houdini/hom/locations.html)
 
-For more informations about Python script locations in Houdini:
-http://www.sidefx.com/docs/houdini/hom/locations.html
+(Re)Start Houdini to source the scripts in the *src* folder. 
 
-## Usage
+## Modules
 
-(Re)Start Houdini to source the scripts in the *src* folder. Execute required command.
+### Quickbook
+Write an jpg image sequence from flipbook to disk and converte this sequence to a mov file via ffmpeg.
 
-## Commands
+Functions:  
+
+    exec_quickbook(framerate, resolution, images_output_dir, video_output_dir, file_name)
+
+Example:
+
+    import Quickbook  
+    Quickbook.exec_quickbook("25", "1920x1080", "C:/Some/Folder/You/Choose/", "C:/Some/Folder/You/Choose/", "Sequ1_Shot01_someName")
